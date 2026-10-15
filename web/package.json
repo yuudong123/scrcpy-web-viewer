@@ -1,0 +1,15 @@
+{
+  "name": "scrcpy-local-web",
+  "version": "1.0.0",
+  "description": "A minimal local browser viewer for a USB-connected Android phone using scrcpy.",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "dependencies": {
+    "ws": "8.22.0"
+  }
+}

@@ -1,0 +1,24 @@
+# Downloaded upstream runtime and archives
+/scrcpy-win64-*/
+/*.zip
+/release-asset.json
+
+# Dependencies and runtime state
+node_modules/
+*.log
+*.pid
+.env
+.env.*
+
+# Local screen captures and QA output
+/web/preview.png
+/web/screenshots/
+/test-results/
+/playwright-report/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
